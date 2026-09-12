@@ -74,7 +74,7 @@ decimal devuelve `13.75`; la nota `21` produce un mensaje de error y código de 
 
 - JAR generado: `target/calculadora-notas-1.0.0.jar`.
 - Reportes de prueba generados: `target/surefire-reports/`.
-- Informe con capturas: [Informe_Practica_03.pdf](docs/Informe_Practica_03.pdf).
+- Informe con capturas: [Informe_Practica_03.pdf](output/pdf/Informe_Practica_03.pdf).
 - Evidencias y registros: [docs/evidencias](docs/evidencias/).
 - Construcción en GitHub: [Actions](https://github.com/GinoSebastianD/IS2-PC3-GG/actions).
 
