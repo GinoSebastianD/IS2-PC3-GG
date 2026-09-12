@@ -1,0 +1,25 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>Pruebas y ejecución del archivo JAR</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fff;color:#142a3d;font-family:Arial,sans-serif;padding:24px 32px}
+header{border-bottom:3px solid #0b7775;padding-bottom:17px;margin-bottom:18px}.eyebrow{font-size:13px;letter-spacing:1.6px;color:#0b7775;font-weight:bold}
+h1{font-size:28px;margin:12px 0 7px}.sub{font-size:16px;color:#526371;line-height:1.4;margin:0}
+h2{font-size:15px;margin:14px 0 7px;color:#345367}pre{margin:0;background:#f2f5f7;border:1px solid #dae2e6;padding:13px 17px;color:#172632;white-space:pre-wrap;overflow-wrap:anywhere;font:16px/1.3 Consolas,monospace}
+footer{font-size:12px;line-height:1.5;color:#526371;border-top:1px solid #dae2e6;margin-top:20px;padding-top:12px}
+</style><header><div class="eyebrow">IS2-PC3-GG / VISOR DE EVIDENCIAS / 04</div><h1>Pruebas y ejecución del archivo JAR</h1><p class="sub">Verificación de resultados válidos y rechazo de una nota fuera de la escala.</p></header>
+<section><h2>Reporte de Surefire · 04-pruebas.log</h2><pre>-------------------------------------------------------------------------------
+Test set: pe.edu.is2.notas.CalculadoraNotasTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 s -- in pe.edu.is2.notas.CalculadoraNotasTest</pre></section><section><h2>Comprobaciones de consola · 03-ejecucion.log</h2><pre>Comprobaciones del JAR - 2026-09-12 16:54:43 -05:00
+PS&gt; java -jar target/calculadora-notas-1.0.0.jar 14 16 18
+CALCULADORA DE NOTAS | IS2 - PRACTICA 03
+Notas procesadas: 3
+Promedio: 16.00
+Codigo de salida: 0
+PS&gt; java -jar target/calculadora-notas-1.0.0.jar 12.5 15
+CALCULADORA DE NOTAS | IS2 - PRACTICA 03
+Notas procesadas: 2
+Promedio: 13.75
+Codigo de salida: 0
+PS&gt; java -jar target/calculadora-notas-1.0.0.jar 21
+Error: Cada nota debe ser un numero entre 0 y 20.
+Codigo de salida: 1</pre></section><footer>Captura de registros reales guardados durante la ejecución. Los códigos de salida se registraron después de cada proceso Java.</footer></html>

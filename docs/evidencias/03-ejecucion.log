@@ -1,0 +1,14 @@
+Comprobaciones del JAR - 2026-09-12 16:54:43 -05:00
+PS> java -jar target/calculadora-notas-1.0.0.jar 14 16 18
+CALCULADORA DE NOTAS | IS2 - PRACTICA 03
+Notas procesadas: 3
+Promedio: 16.00
+Codigo de salida: 0
+PS> java -jar target/calculadora-notas-1.0.0.jar 12.5 15
+CALCULADORA DE NOTAS | IS2 - PRACTICA 03
+Notas procesadas: 2
+Promedio: 13.75
+Codigo de salida: 0
+PS> java -jar target/calculadora-notas-1.0.0.jar 21
+Error: Cada nota debe ser un numero entre 0 y 20.
+Codigo de salida: 1

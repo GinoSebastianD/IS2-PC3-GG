@@ -1,0 +1,9 @@
+icm : Excepción al llamar a "DownloadFile" con los argumentos "2": "Se ha terminado la conexión: Error inesperado de 
+recepción."
+En línea: 1 Carácter: 103
++ ... 'mvnw.cmd'; icm -ScriptBlock ([Scriptblock]::Create((Get-Content -Raw ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Invoke-Command], MethodInvocationException
+    + FullyQualifiedErrorId : WebException,Microsoft.PowerShell.Commands.InvokeCommandCommand
+ 
+Cannot start maven from wrapper  
